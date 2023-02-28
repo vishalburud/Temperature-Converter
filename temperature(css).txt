@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 100%, rgba(9,22,121,1) 100%);
+    justify-content: center;
+}
+
+.temp{
+    margin: 30px 30px;
+    color: white;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 90px;
+}
+
+h1{
+    font-family: 'Rowdies', cursive;
+  padding-bottom: 20px;
+  background-attachment: fixed;
+}
+
+p{
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+}
